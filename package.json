@@ -1,0 +1,19 @@
+{
+  "name": "libre-key-tool",
+  "version": "1.0.0",
+  "description": "Recover & Generate mnemonic keys for libre and eosio blockchains",
+  "main": "libre-key-tool.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Davis",
+  "license": "MIT",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "commander": "^9.4.0",
+    "eosjs-ecc": "^4.0.7",
+    "hdkey": "^2.0.1",
+    "wif": "^2.0.6"
+  }
+}
