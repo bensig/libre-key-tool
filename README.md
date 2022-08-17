@@ -55,6 +55,6 @@ node libre-key-tool.js
 > -h, --help display help for command
 >
 > Commands:
-> generate Generate a new mneonic seed and keypair
-> recover <string> Decode mneonic to keypair
-> help [command] display help for command
+> `node libre-key-tool.js generate` Generate a new mneonic seed and keypair
+> `node libre-key-tool.js recover` <string> Decode mneonic to keypair
+> `node libre-key-tool.js help` [command] display help for command
