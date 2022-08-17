@@ -40,12 +40,6 @@ npm install
 node libre-key-tool.js
 ```
 
-## Installation
-
-```
-npm install
-```
-
 ## Usage
 
 ```
