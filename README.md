@@ -5,7 +5,7 @@
 - node LTS (16)
 - npm
 
-## Preinstall
+## Preinstall OS X
 
 Install Brew (if on OS X)
 ```
@@ -30,6 +30,20 @@ Install node 16
 source ~/.bash_profile
 nvm install 16
 ```
+
+## Preinstall Linux 
+
+Install nvm
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+
+Install node 16
+```
+source ~/.profile
+nvm install 16
+```
+
 
 ## Install
 ```
