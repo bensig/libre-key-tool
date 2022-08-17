@@ -33,6 +33,8 @@ source ~/.bash_profile
 nvm install 16
 ```
 
+Install and run key tool:
+```
 cd libre-key-tool
 npm install
 node libre-key-tool.js
