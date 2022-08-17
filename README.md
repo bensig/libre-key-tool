@@ -5,6 +5,39 @@
 - node LTS (16)
 - npm
 
+## Preinstall
+clone this repo
+`git clone https://github.com/Galaxoid-Labs/libre-key-tool.git`
+
+Install Brew (if on OS X)
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
+brew update 
+```
+
+Install nvm with Brew (OS X)
+```
+brew install nvm 
+mkdir ~/.nvm 
+nano ~/.bash_profile
+```
+put this in the .bash_profile
+```
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+```
+
+Install node 16
+```
+source ~/.bash_profile
+nvm install 16
+```
+
+cd libre-key-tool
+npm install
+node libre-key-tool.js
+```
+
 ## Installation
 
 ```
