@@ -5,7 +5,20 @@
 - node LTS (16)
 - npm
 
-## Preinstall OS X
+## Preinstall for Linux 
+
+Install nvm
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+
+Install node 16
+```
+source ~/.profile
+nvm install 16
+```
+
+## Preinstall for OS X
 
 Install Brew (if on OS X)
 ```
@@ -30,20 +43,11 @@ Install node 16
 source ~/.bash_profile
 nvm install 16
 ```
-
-## Preinstall Linux 
-
-Install nvm
+## Preinstall for Windows
 ```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+Install git on Windows [https://www.pugetsystems.com/labs/hpc/Note-Setup-Git-for-PowerShell-on-Windows-10-1653/](https://git-scm.com/download/win)
+Download NVM for Windows [https://github.com/coreybutler/nvm-windows/releases/download/1.1.9/nvm-setup.exe](https://github.com/coreybutler/nvm-windows/releases/download/1.1.9/nvm-setup.exe)
 ```
-
-Install node 16
-```
-source ~/.profile
-nvm install 16
-```
-
 
 ## Install
 ```
